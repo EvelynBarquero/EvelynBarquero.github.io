@@ -1,0 +1,231 @@
+@import "https://fonts.googleapis.com/css?family=Pontano+Sans";
+
+.imagen {
+    position: relative;
+    top: -40px;    
+}
+
+.imagen h1{
+    position: absolute;
+    text-align: center; 
+    color: white;   
+    top: 250px;
+    text-shadow: 1.5px 1px 1px black; 
+    font-size: 30px; 
+    margin-left: 350px;
+    margin-right:350px;  
+}
+
+nav ul li{
+    margin: 10px;
+    position:relative;
+        left: 1150px;
+        top: -65px;        
+    float:left;
+    list-style: none;
+
+}
+
+a {  font-weight: bold;  
+    text-decoration: none;  
+    color: 82BE42;  
+    font-size: 16px;
+    } 
+    a:hover {  
+        color: gray;  
+        border-color: gray; 
+        border-bottom: 0.5px solid gray;
+    }
+
+hr {
+    color: green;
+    width: 500px;
+    align-items: center;
+    margin-bottom: 10px;   
+
+}
+
+nav img{
+    width: 200px;
+    padding:10px;
+    margin-left: 300px;
+}
+
+.fondo { 
+     width: 100%;
+
+}
+
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+
+html, body {  
+    font-family: Pontano Sans, sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	//background-color: white;
+	font-size: 15px;
+    
+} 
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    color: gray;
+    //background-color: 82BE42;   
+}
+
+h3 {
+    //text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    color: gray;
+}
+
+
+
+
+#nosotros{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 600px;
+    margin-right:600px;
+
+}
+
+#caja{
+    margin-left: 200px;
+    margin-right:200px; 
+    background-color: green;
+    }
+
+#izquierdo { 
+    text-align: center;
+    margin: 10px;
+    width: 375px;
+    background-color: white; 
+    float:left;
+}
+#central{ 
+    text-align: center;
+    margin: 10px;
+    width: 375px;
+    margin-left: 180px;
+    float: left;
+    background-color: white;
+    overflow: auto;
+} 
+#derecho { 
+    text-align: center;
+    margin: 10px;
+    width: 375px;
+    float: right;
+}
+
+
+#reconocimientos{
+    margin-left:200px;
+    margin-right:200px;
+    color: gray;
+    
+}
+
+#partner2011 { 
+    text-align: center;
+    width: 375px;
+    background-color: transparent; 
+    float:left;    
+}
+
+#Innovator{ 
+    text-align: center;
+    width: 375px;
+    margin-left: 180px;
+    float: left;
+    //background-color: white;
+    overflow: auto;
+} 
+
+#Transformation { 
+    text-align: center;
+    //margin: 10px;
+    width: 375px;
+    //height: 100%;
+    //background-color: white; 
+    float:right;
+}
+
+
+#etapas {
+    position: relative;
+    //margin-top: 10px;
+}
+
+.footer-basic-centered{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 18px sans-serif;
+
+    padding: 45px;
+    margin-top: 80px;
+}
+
+.footer-basic-centered .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+    list-style: none;
+    font-weight: bold;
+    color:  #ffffff;
+    padding: 35px 0 23px;
+    margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+    display:inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+/*@media (max-width: 600px) {
+
+    .footer-basic-centered{
+        padding: 35px;
+    }
+
+    .footer-basic-centered .footer-company-name{
+        font-size: 12px;
+    }
+
+    .footer-basic-centered .footer-links{
+        font-size: 14px;
+        padding: 25px 0 20px;
+    }
+
+    .footer-basic-centered .footer-links a{
+        line-height: 1.8;
+    }
+}
+*/
+
+
+

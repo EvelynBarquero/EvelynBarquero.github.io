@@ -1,0 +1,157 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="css2/style.css">
+<title>Tres columnas</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+</head>
+
+<body link="red">
+
+<header>
+    <nav>
+      <img src="images/Logo-01.png" alt="Altus logo">
+      <ul>
+      <li ><a title="Software" href="#">Software</a></li>
+      <li><a title="Colaboración Cisco" href="#">Colaboración Cisco</a></li>
+      <li><a title="Servicios" href="#">Servicios</a></li>
+      <li><a title="Contáctenos" href="#">Contáctenos</a></li> 
+    </ul>
+  </nav>
+</header>
+
+<!-- Slideshow -->
+
+
+<div class="imagen" style="max-width:100% ;position:relative">
+ <img class="fondo"  src="images/fondo-04.jpg" alt="Homepage" style="width:100%" >
+ <img class="fondo"  src="images/fondo-05.jpg" alt="Homepage" style="width:100%" >
+ <img class="fondo"  src="images/fondo-06.jpg" alt="Homepage" style="width:100%" >
+
+  <a class="boton" style="position:absolute;top:50%;left:40px" onclick="plusDivs(-1)">❮</a>
+  <a class="boton" style="position:absolute;top:50%;right:40px" onclick="plusDivs(1)">❯</a>
+    <div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("fondo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+       <!--  <h1>Ayudamos a nuestros clientes a innovar en sus procesos de negocio y a reducir sus costos operativos a través de soluciones de TI. </h1>-->
+    </div>
+</div>
+
+<div id="About us">
+	<h2>Acerca de nosotros</h2>
+
+	<div id="nosotros"> <p>En Altus ayudamos a nuestros clientes a innovar en sus procesos de negocio y a reducir sus costos operativos a través de soluciones de TI. Gestionamos la infraestructura y servicios de TI, con recursos especializados, certificados en las arquitecturas de los líderes de la industria como Cisco, HP, Citrix y Motorola, y las mejores prácticas como ITIL y gestión de proyectos. Ofrecemos un alto nivel de experiencia a través de las fases del ciclo de vida de los proyectos de TI, que incluyen la planificación, diseño, implementación, operación y optimización.</p></div>
+	<hr>
+	
+	</div>
+
+	
+	<div id="reconocimientos"> 
+
+       <div id="partner2011">
+       <h3>Partner of the Year 2011</h3>
+       <p>Por nuestro excelente desempeño comercial, nuestra aguda visión de negocio y nuestra capacidad para ejecutar esa visión, Cisco nos distinguió con el título de Commercial Partner Led Partner of the Year para la región de Latinoamérica, quedando por encima de canales de regiones mucho más desarrolladas como lo son México y Brasil.</p>
+    
+   	   </div> 
+        
+       <div id="Innovator"> 
+       <h3>Cisco Collaboration Innovator</h3>
+          <p>En 2012 Cisco lanzó el reto a sus partners a nivel mundial de demostrar su conocimiento y capacidad de innovación en la Arquitectura de Colaboración. Solamente cinco partners en el mundo fueron distinguidos con el título de Collaboration Innovators y Altus fue uno de ellos.</p>          
+       </div>
+        
+       <div id="Transformation">
+         <h3>Innovation and Transformation Partner of the Year</h3>
+         <p>En 2014 Altus fue invitado al evento Canalys Channels Forum en donde fue distinguido con el título de Innovation and Transformation Partner of the Year , como reconocimiento a nuestro entendimiento de la industria de TI y nuestra capacidad de transformarnos como empresa para poder aprovecharlas las oportunidades que se presentan</p>     
+
+      </div>
+  	</div>
+
+	<div id="nuestra metodología">
+  	<h2 style="clear: both;>"Nuestra metodologia"</h2> 
+  	<br>
+  	<img id="etapas" src="images/etapas-01.jpg" alt="Etapas Altus" width="95%">
+  	</div>
+  	
+</div>
+<hr>
+<br>
+
+<div id="caja"> 
+	<h2>Colaboración Cisco</h2>
+
+       <div id="izquierdo">
+       <h3>Altus Live Stats</h3>
+       <p>Altus Live Stats es una solución de visualización de datos en tiempo real para el Cisco Unified Contact Center Express®. El sistema extrae de forma constante las estadístic as de su centro de contactos y las presenta de una forma gráfica, en un formato sencillo de interpretar visualmente.
+    Con ALS usted puede tener información fresca acerca de las colas de su centro de contacto, las llamadas entrantes, atendidas y abandonadas, así como el nivel de servicio, calculado a partir de los parámetros específicos utilizados en su organización.</p>
+    <input type="button" onclick="alert('Ahorita va a ver mas')" value="Ver más">
+    </div> 
+        
+       <div id="central"> 
+       <h3>Dynamic reports</h3>
+          <p>Las empresas modernas deben ser capaces de realizar un adecuado y minucioso análisis de los datos que genera su organización. Del análisis de datos se extrae información de  inteligencia de negocio que les permite mantenerse adelante de la competencia y abarcar más mercado.
+          Altus Dynamic Reports es una poderosa herramienta de análisis de datos, especializada en extraer de su centro de contactos la información verdaderamente relevante para su negocio.</p>
+          <input type="button" onclick="alert('Ahorita va a ver mas')" value="Ver más">
+       </div>
+        
+       <div id="derecho">
+         <h3>Billing manager</h3>
+         <p>Con Altus Billing Manager su organización puede obtener una mayor visibilidad de su gasto en llamadas telefónicas, establecer políticas de uso de su central y disminuir sus costos operativos.
+         Altus Billing Manager extrae datos de tarificación de su central Cisco Unified Communications Manager® y genera reportes detallados de los gastos incurridos en llamadas telefónicas.
+         Una sencilla e intuitiva interfaz gráfica facilita la generación de los reportes y la administración de las extensiones desde cualquier computadora con un navegador web.</p>
+         <input type="button" onclick="alert('Ahorita va a ver mas')" value="Ver más">
+      </div>
+
+  </div>
+      
+      <h2 style="clear: both;">Nuestros clientes</h2>
+      <img src="images/clientes-02.jpg" alt="Clientes" width="100%">
+      
+</body>
+
+<footer	class="footer-basic-centered">
+
+			
+
+			<p class="footer-links">
+				<a href="#">Inicio</a>
+				·
+				<a href="#">Nosotros</a>
+				·
+				<a href="#">Clientes</a>
+				·
+				<a href="#">Etapas</a>
+				·
+				<a href="#">Contactanos</a>
+			</p>
+
+			<img src="images/derechos-03.png" alt="derechos reservados" width="10%">
+
+		</footer>
+
+	
+
+</html> 
+
