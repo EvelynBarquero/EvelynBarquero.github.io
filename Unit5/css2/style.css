@@ -1,8 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Pontano+Sans";
-
+* { margin:0; padding:0; box-sizing:border-box; }
 .imagen {
     position: relative;
-    top: -40px;    
+    /* top: -40px; */
 }
 
 .imagen h1{
@@ -41,8 +41,7 @@ hr {
     color: green;
     width: 500px;
     align-items: center;
-    margin-bottom: 10px;   
-
+    margin-top: 1em;
 }
 
 nav img{
@@ -78,11 +77,11 @@ html, body {
 
 h2 {
     text-align: center;
-    padding: 10px;
     margin-bottom: 10px;
     position: relative;
     color: gray;
-    //background-color: 82BE42;   
+    //
+    background-color: 82BE42;
 }
 
 h3 {
@@ -135,35 +134,34 @@ h3 {
 
 
 #reconocimientos{
-    margin-left:200px;
-    margin-right:200px;
+    /* width: 1200px; */
+    margin: auto;
     color: gray;
+    background: black;
+}
+
+#reconocimientos div div {
+    text-align: center;
+    width: 33.33%;
+    float:left;
+    padding: 2em;
+}
+
+#Innovator{
     
-}
-
-#partner2011 { 
-    text-align: center;
-    width: 375px;
-    background-color: transparent; 
-    float:left;    
-}
-
-#Innovator{ 
-    text-align: center;
-    width: 375px;
-    margin-left: 180px;
-    float: left;
-    //background-color: white;
-    overflow: auto;
+    //
+    background-color: white;
 } 
 
 #Transformation { 
-    text-align: center;
-    //margin: 10px;
-    width: 375px;
-    //height: 100%;
-    //background-color: white; 
-    float:right;
+    
+    //
+    margin: 10px;
+    
+    //
+    height: 100%;
+    //
+    background-color: white;
 }
 
 
@@ -203,7 +201,22 @@ h3 {
     text-decoration: none;
     color: inherit;
 }
+.clearfix:after {
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;
+    content:"";
+}
+.wrapper {
+    width: 1200px;
+    margin: Auto;
+}
 
+div#About-us {
+    width: 600px;
+    margin: 4em auto;
+}
 /* If you don't want the footer to be responsive, remove these media queries */
 
 /*@media (max-width: 600px) {
