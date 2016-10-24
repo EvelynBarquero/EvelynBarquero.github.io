@@ -1,0 +1,76 @@
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article{
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer{
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section{
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div{
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.reconocimientos{
+	width: 1625px;
+	height: 300px;
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#partner2011 {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#innovator{
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#transformation{
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 30%;
+}
