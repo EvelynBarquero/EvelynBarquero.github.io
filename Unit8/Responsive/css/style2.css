@@ -1,0 +1,399 @@
+@import "https://fonts.googleapis.com/css?family=Pontano+Sans";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+
+
+/* navigation styles
+/* ========================================== */
+
+.collapse navbar-collapse{
+  width: 50%;
+}
+.custom-navbar {
+    background: #333;
+    border: none;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.custom-navbar .navbar-brand  {
+  border: 4px solid #ffffff;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: .5 em;
+}
+
+.custom-navbar .navbar-brand .navbar-toggle {
+    background: #ffa400;
+     padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.custom-navbar .nav li {
+    float: right;
+    width:13%;
+  
+}    
+
+
+.custom-navbar ul {
+    list-style-type:none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    
+    display: block;
+
+}
+
+.custom-navbar .nav li a {
+  display: block;
+  padding: 15px 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+ }
+
+.custom-navbar .nav li a:hover {
+  background-color: #82be42;
+}
+
+
+
+
+html,body{
+	font-family: Pontano Sans, sans-serif;
+  overflow-x: hidden;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: baseline;
+}
+
+
+#logo{
+	padding: 0px;
+	width:18%; 
+	height:1.5em;
+  float: left;
+  margin-top: 20px;
+}
+
+/* ALTUS ========================================== */
+.altus{
+    margin-left: 300px;
+    width: 100%;
+    position: relative;
+    border: 20px;
+
+}
+.section-title {
+  border: 4px solid #000;
+  padding: 50px;
+  position: relative;
+  text-align: center;
+  width: 50%;
+}
+
+
+.heading {
+  font-size: 62px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 10px;
+  }
+
+h5 {
+  color: #82be42;
+  letter-spacing: 5px;
+  font-size: 17px; 
+  margin: 0px; 
+  font-family: Raleway, sans-serif;
+}
+
+hr {
+  width: 60px;
+  color: green;
+}
+
+
+#work, #about, #team, 
+#portfolio, #plan, #contact {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.linea{
+  width: 1350px;
+  margin-bottom: 70px;
+  margin-top: 40px;
+  border: 2px solid #8dc63f;
+}
+
+
+/* ========================================== */
+
+.nosotros{
+	  width: 100%;
+  	position: relative;
+    border: 20px;
+    background-color: #8dc63f;
+    margin: 50px;
+}
+
+#textoNosotros{
+	position: absolute;
+	left: 370px;
+	width: 600px;
+	color: white;
+  letter-spacing: 1px;
+	text-align: center;
+	text-decoration: blink;
+	top: 200px;
+	margin: 0 auto;
+	font-size: 28px;
+  font-weight: bold;
+   
+}
+
+/* ========================================== */
+
+.boton {
+    background-color: white;
+    color: black;
+    border: 2px solid #8dc63f;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.boton:hover {
+    background-color: #8dc63f;
+    color: white;
+}
+/* ========================================== */
+
+h1{
+	text-align: center;
+	font-size: 20px;
+}
+
+h2{
+  text-align: center;
+  font-size: 25px;
+  font-kerning: 10px;
+  color: #8dc63f;
+  letter-spacing: 2px;
+}
+
+#uno{
+	background-color: white;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.article {
+  width: 26%;
+  height: 200px;
+  padding: 30px;
+  margin: 0 20px;
+  float: left;
+  color: #333;
+  text-align: center;
+}
+
+
+#reconocimientos{
+	width: 100%;  		
+  }
+
+#partner2011 {
+    background: white;
+ }
+
+#innovator{
+     background: white;
+}
+
+#transformation{
+     background: white;
+}
+
+
+.article2 {
+  width: 20%;
+  margin: 0 90px;
+  float: left;
+  color: #333;
+  text-align: center;
+}
+
+#metodologia{
+	width: 100%;
+  	margin: 0 auto;	
+}
+
+#planear{
+    background: white;
+}
+
+#implementar{
+     background: white;
+
+}
+
+#administrar{
+     background: white;
+}
+
+/*CASOS DE ÉXITO ================================================== */
+    /*height: 10000px;*/
+    font-family: "Lato";
+    padding:20px 30px;
+    margin: 0px;
+  }
+
+  h1,h2,h3,h4{
+    padding: 0px;
+    margin: 0px;
+  }
+.container-a1{
+  margin: 90px;
+}
+  .caption-style-1{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+
+  .caption-style-1 li{
+    float: left;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .caption-style-1 li:hover .caption{
+    opacity: 1;
+  }
+
+
+  .caption-style-1 img{
+    margin: 20px;
+    padding: 0px;
+    float: left;
+    z-index: 4;
+  }
+
+
+  .caption-style-1 .caption{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    margin: 20px;
+    -webkit-transition:all 0.45s ease-in-out;
+    -moz-transition:all 0.45s ease-in-out;
+    -o-transition:all 0.45s ease-in-out;
+    -ms-transition:all 0.45s ease-in-out;
+    transition:all 0.45s ease-in-out;
+
+  }
+  .caption-style-1 .blur{
+    background-color: rgba(0,0,0,0.65);
+    height: 300px;
+    width: 400px;
+    z-index: 5;
+    position: relative;
+  }
+
+  .caption-style-1 .caption-text h1{
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  .caption-style-1 .caption-text{
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    top:100px;
+  }
+
+  
+   p.credit{
+    padding-top: 20px;
+    font-size: 12px;
+  }
+
+  p a{
+    color: #ecf0f1
+    text-align: center;
+  }
+
+
+/*CASOS DE ÉXITO ================================================== */
+
+
+.footer-basic-centered{
+    background-color: #333;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;  
+    margin-top: 50px;
+
+    float: left;
+}
+
+
+.footer-basic-centered .footer-links{
+    list-style: none;
+    color:  #ffffff;
+
+}
+
+.footer-basic-centered .footer-links a{
+    display:inline-block;
+    text-decoration: none;
+    color: inherit;
+    margin: 10px;
+}
+
+/* ========================================== */
+
+.boton2 {
+    background-color: none;
+    width: 100px;
+    color: black;
+    border: 1px solid #333;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.boton2:hover {
+    background-color: #8dc63f;
+    color: white;
+    border: 1px solid #8dc63f;
+}
+
+
+
+
+/* ========================================== */
+
+
+
